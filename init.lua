@@ -6,3 +6,4 @@ require('misc')
 
 -- Plugins
 require('plugin-config.nvim-treesitter')
+require('lsp.setup')
