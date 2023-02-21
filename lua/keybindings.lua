@@ -8,6 +8,10 @@ local opt = {noremap = true, silent = true}
 
 -- Window Management
 map('n', 's', '', opt)
+map('n', 'sv', ':vsp<CR>', opt)
+map('n', 'sh', ':sp<CR>', opt)
+map('n', 'sc', '<C-w>c', opt)
+map('n', 'so', '<C-w>o', opt)
 
 -- Terminal Mode
 
@@ -18,7 +22,7 @@ map('n', 's', '', opt)
 -- Bufferline
 map('n', '<A-h>', ':BufferLineCyclePrev<CR>', opt)
 map('n', '<A-l>', ':BufferLineCycleNext<CR>', opt)
-map('n', '<A-w>', ':Bdelete!<CR>', opt)
+map('n', '<A-w>', ':bdelete!<CR>', opt)
 
 -- Telescope
 map('n', '<A-p>', ':Telescope find_files<CR>', opt)
@@ -27,3 +31,6 @@ map('n', '<A-f>', ':Telescope live_grep<CR>', opt)
 -- Nvim-tree
 map('n', '<A-m>', ':NvimTreeToggle<CR>', opt)
 
+-- For writing SML
+map('n', '<leader>rs', ':SMLReplStart<CR>', opt)
+map('n', '<leader>rr', ':SMLReplStop<CR>', opt)

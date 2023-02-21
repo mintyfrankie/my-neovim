@@ -3,7 +3,9 @@ local packer = require('packer')
 packer.startup(
     function(use)
         use 'wbthomason/packer.nvim'
+        -- Themes
         use 'shaunsingh/nord.nvim'
+        use 'folke/tokyonight.nvim'
         -- Treesitter
         use {'nvim-treesitter/nvim-treesitter', 
             run=':TSUpdate'}
@@ -23,6 +25,9 @@ packer.startup(
         -- Lualine
         use {'nvim-lualine/lualine.nvim',
             requires = {'kyazdani42/nvim-web-devicons', opt = true}}
+        -- Dashboard-vim
+        use {'glepnir/dashboard-nvim',
+            requires = {'nvim-tree/nvim-web-devicons'}}
         -- LaTeX Support
         use 'lervag/vimtex'
         -- SML Support
