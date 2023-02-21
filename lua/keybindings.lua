@@ -15,4 +15,11 @@ map('n', 's', '', opt)
 
 -- Browsing 
 
+-- Bufferline
+map('n', '<C-h>', ':BufferLineCyclePrev<CR>', opt)
+map('n', '<C-l>', ':BufferLineCycleNext<CR>', opt)
+map('n', '<C-w>', ':Bdelete!<CR>', opt)
 
+-- Telescope
+map('n', '<C-p>', ':Telescope find_files<CR>', opt)
+map('n', '<C-fr', ':Telescope live_grep<CR>', opt)

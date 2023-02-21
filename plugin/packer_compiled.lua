@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/ale",
     url = "https://github.com/w0rp/ale"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -104,10 +109,25 @@ _G.packer_plugins = {
     path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-better-sml"] = {
     loaded = true,

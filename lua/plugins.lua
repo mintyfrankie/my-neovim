@@ -2,13 +2,22 @@ local packer = require('packer')
 
 packer.startup(
     function(use)
-        use('wbthomason/packer.nvim')
-        use('shaunsingh/nord.nvim')
-        use({'nvim-treesitter/nvim-treesitter', 
-            run=':TSUpdate'})
-        use({'williamboman/mason.nvim', 
+        use 'wbthomason/packer.nvim'
+        use 'shaunsingh/nord.nvim'
+        -- Treesitter
+        use {'nvim-treesitter/nvim-treesitter', 
+            run=':TSUpdate'}
+        -- Mason LSP
+        use {'williamboman/mason.nvim', 
              'williamboman/mason-lspconfig.nvim',
-             'neovim/nvim-lspconfig'})
+             'neovim/nvim-lspconfig'}
+        -- Bufferline
+        use {'akinsho/bufferline.nvim',
+            tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+
+        -- Telescrope
+        use {'nvim-telescope/telescope.nvim',
+            tag = '0.1.1', requires = 'nvim-lua/plenary.nvim'}
         -- SML Support
         use('w0rp/ale')
         use('jez/vim-better-sml')
