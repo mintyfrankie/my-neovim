@@ -42,6 +42,7 @@ vim.o.wildmenu = true
 vim.o.pumheight = 10
 
 -- Style & Display behaviour
+vim.wo.number = true
 vim.o.scrolloff = 10
 vim.sidescrolloff = 8
 vim.wo.signcolumn = 'yes'

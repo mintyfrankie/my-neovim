@@ -23,3 +23,7 @@ map('n', '<C-w>', ':Bdelete!<CR>', opt)
 -- Telescope
 map('n', '<C-p>', ':Telescope find_files<CR>', opt)
 map('n', '<C-f>', ':Telescope live_grep<CR>', opt)
+
+-- Nvim-tree
+map('n', '<A-m>', ':NvimTreeToggle<CR>', opt)
+

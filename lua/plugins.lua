@@ -17,6 +17,9 @@ packer.startup(
         -- Telescrope
         use {'nvim-telescope/telescope.nvim',
             tag = '0.1.1', requires = 'nvim-lua/plenary.nvim'}
+        -- Nvim-tree
+        use {'nvim-tree/nvim-tree.lua',
+            requires = 'nvim-tree/nvim-web-devicons'}
         -- LaTeX Support
         use 'lervag/vimtex'
         -- SML Support
