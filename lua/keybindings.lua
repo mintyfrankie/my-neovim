@@ -22,4 +22,4 @@ map('n', '<C-w>', ':Bdelete!<CR>', opt)
 
 -- Telescope
 map('n', '<C-p>', ':Telescope find_files<CR>', opt)
-map('n', '<C-fr', ':Telescope live_grep<CR>', opt)
+map('n', '<C-fr', ':Telescope live_grep<Ce>', opt)
