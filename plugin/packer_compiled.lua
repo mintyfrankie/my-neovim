@@ -133,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/vim-better-sml",
     url = "https://github.com/jez/vim-better-sml"
+  },
+  vimtex = {
+    loaded = true,
+    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/vimtex",
+    url = "https://github.com/lervag/vimtex"
   }
 }
 

@@ -6,8 +6,8 @@ end
 
 bufferline.setup({
     options = {
-        close_command = 'Bdelete! %d',
-        right_mouse_command = 'Bdelete! %d',
+        close_command = 'bdelete! %d',
+        right_mouse_command = 'bdelete! %d',
         offsets = {
             filetype = 'NvimTree',
             text = 'File Explorer',

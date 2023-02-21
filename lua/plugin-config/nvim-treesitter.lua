@@ -5,7 +5,13 @@ if not status then
 end
 
 treesitter.setup({
-    ensure_installed = 'all',
+    ensure_installed = {
+        'python',
+        'markdown',
+        'lua',
+        'vim',
+        'json'
+    },
     highlight = {
         enable = true,
         additional_vim_regex_highlighting = false},

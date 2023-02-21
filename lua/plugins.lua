@@ -14,10 +14,11 @@ packer.startup(
         -- Bufferline
         use {'akinsho/bufferline.nvim',
             tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
-
         -- Telescrope
         use {'nvim-telescope/telescope.nvim',
             tag = '0.1.1', requires = 'nvim-lua/plenary.nvim'}
+        -- LaTeX Support
+        use 'lervag/vimtex'
         -- SML Support
         use('w0rp/ale')
         use('jez/vim-better-sml')
