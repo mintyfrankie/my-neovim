@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ale = {
+    loaded = true,
+    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/ale",
+    url = "https://github.com/w0rp/ale"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -103,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["vim-better-sml"] = {
+    loaded = true,
+    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/vim-better-sml",
+    url = "https://github.com/jez/vim-better-sml"
   }
 }
 

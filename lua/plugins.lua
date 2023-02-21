@@ -9,6 +9,9 @@ packer.startup(
         use({'williamboman/mason.nvim', 
              'williamboman/mason-lspconfig.nvim',
              'neovim/nvim-lspconfig'})
+        -- SML Support
+        use('w0rp/ale')
+        use('jez/vim-better-sml')
     end
 )
 
