@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",

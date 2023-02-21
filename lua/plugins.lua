@@ -20,6 +20,9 @@ packer.startup(
         -- Nvim-tree
         use {'nvim-tree/nvim-tree.lua',
             requires = 'nvim-tree/nvim-web-devicons'}
+        -- Lualine
+        use {'nvim-lualine/lualine.nvim',
+            requires = {'kyazdani42/nvim-web-devicons', opt = true}}
         -- LaTeX Support
         use 'lervag/vimtex'
         -- SML Support

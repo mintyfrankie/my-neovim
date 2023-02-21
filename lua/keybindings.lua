@@ -16,13 +16,13 @@ map('n', 's', '', opt)
 -- Browsing 
 
 -- Bufferline
-map('n', '<C-h>', ':BufferLineCyclePrev<CR>', opt)
-map('n', '<C-l>', ':BufferLineCycleNext<CR>', opt)
-map('n', '<C-w>', ':Bdelete!<CR>', opt)
+map('n', '<A-h>', ':BufferLineCyclePrev<CR>', opt)
+map('n', '<A-l>', ':BufferLineCycleNext<CR>', opt)
+map('n', '<A-w>', ':Bdelete!<CR>', opt)
 
 -- Telescope
-map('n', '<C-p>', ':Telescope find_files<CR>', opt)
-map('n', '<C-f>', ':Telescope live_grep<CR>', opt)
+map('n', '<A-p>', ':Telescope find_files<CR>', opt)
+map('n', '<A-f>', ':Telescope live_grep<CR>', opt)
 
 -- Nvim-tree
 map('n', '<A-m>', ':NvimTreeToggle<CR>', opt)
