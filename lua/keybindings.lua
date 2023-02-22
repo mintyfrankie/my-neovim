@@ -12,8 +12,14 @@ map('n', 'sv', ':vsp<CR>', opt)
 map('n', 'sh', ':sp<CR>', opt)
 map('n', 'sc', '<C-w>c', opt)
 map('n', 'so', '<C-w>o', opt)
+map('n', '<C-h>', '<C-w>h', opt)
+map('n', '<C-j>', '<C-w>j', opt)
+map('n', '<C-k>', '<C-w>k', opt)
+map('n', '<C-l>', '<C-w>l', opt)
 
 -- Terminal Mode
+map('n', '<leader>t', ':sp | terminal<CR>', opt)
+map('n', '<leader>vt', ':vsp | terminal<CR>', opt)
 
 -- Visual Mode enhanced
 
