@@ -7,12 +7,8 @@ packer.startup(
         use 'shaunsingh/nord.nvim'
         use 'folke/tokyonight.nvim'
         -- Treesitter
-        use {'nvim-treesitter/nvim-treesitter', 
+        use {'nvim-treesitter/nvim-treesitter',
             run=':TSUpdate'}
-        -- Mason LSP
-        use {'williamboman/mason.nvim', 
-             'williamboman/mason-lspconfig.nvim',
-             'neovim/nvim-lspconfig'}
         -- Bufferline
         use {'akinsho/bufferline.nvim',
             tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
