@@ -21,14 +21,6 @@ packer.startup(
         -- Lualine
         use {'nvim-lualine/lualine.nvim',
             requires = {'kyazdani42/nvim-web-devicons', opt = true}}
-        -- Dashboard-vim
-        use {'glepnir/dashboard-nvim',
-            requires = {'nvim-tree/nvim-web-devicons'}}
-        -- LaTeX Support
-        use 'lervag/vimtex'
-        -- SML Support
-        use('w0rp/ale')
-        use('jez/vim-better-sml')
     end
 )
 

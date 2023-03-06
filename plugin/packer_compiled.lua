@@ -74,20 +74,10 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ale = {
-    loaded = true,
-    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/ale",
-    url = "https://github.com/w0rp/ale"
-  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
-  },
-  ["dashboard-nvim"] = {
-    loaded = true,
-    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
-    url = "https://github.com/glepnir/dashboard-nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -133,16 +123,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
-  },
-  ["vim-better-sml"] = {
-    loaded = true,
-    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/vim-better-sml",
-    url = "https://github.com/jez/vim-better-sml"
-  },
-  vimtex = {
-    loaded = true,
-    path = "/Users/yunan.wang/.local/share/nvim/site/pack/packer/start/vimtex",
-    url = "https://github.com/lervag/vimtex"
   }
 }
 
