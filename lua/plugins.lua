@@ -5,14 +5,13 @@ packer.startup(
         use 'wbthomason/packer.nvim'
         -- Themes
         use 'shaunsingh/nord.nvim'
-        use 'folke/tokyonight.nvim'
         -- Treesitter
         use {'nvim-treesitter/nvim-treesitter',
             run=':TSUpdate'}
         -- Bufferline
         use {'akinsho/bufferline.nvim',
             tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
-        -- Telescrope
+        -- Telescope
         use {'nvim-telescope/telescope.nvim',
             tag = '0.1.1', requires = 'nvim-lua/plenary.nvim'}
         -- Nvim-tree
